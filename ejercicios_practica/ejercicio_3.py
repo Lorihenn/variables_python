@@ -19,8 +19,18 @@ apellido = str(input())
 
 # Imprima su nombre completo
 
+print("Su nombre completo es:", nombre, apellido)
+
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
 
+nombre_completo = nombre + apellido
+
+
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+
+cantidad_letras = len(nombre_completo)
+print("La cantidad de letras de su nombre completo es =", cantidad_letras)
+#Tengo una consulta, la siguiente forma sin definir la variable cantidad_letras sería aceptada? 
+#print("La cantidad de letras de su nombre completo es=", len(nombre_completo))
